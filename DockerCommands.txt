@@ -7,10 +7,3 @@ docker run -ti -v "$(pwd)/ui":/opt/ui -p 4200:4200 p2puiangular:v01
 Run Bash
 docker run -ti -v "$(pwd)/ui":/opt/ui -p 4200:4200 p2puiangular:v01 /bin/bash
 
-
-package.json
-"start": "webpack-dev-server --mode development --open"
-
-
-Build App
-ng build my-app -c production
