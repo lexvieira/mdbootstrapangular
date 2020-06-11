@@ -1,0 +1,42 @@
+01 - Create a Angular project with a prefered directory
+>https://octoperf.com/blog/2019/08/22/kraken-angular-workspace-multi-application-project/
+ng new p2p --directory=ui
+
+
+>Angular Bootstrap with Material Design
+
+>3+ Ways to Add Bootstrap 4 to Angular 9/8 With Example & Tutorial
+https://www.techiediaries.com/angular-bootstrap/
+
+>Add routing
+https://www.techiediaries.com/angular-routing-tutorial/
+
+>Login Page Using Angular Material Design
+https://dzone.com/articles/angular-5-material-design-login-application
+
+>Angular Material Indigo-Pink
+https://www.positronx.io/create-login-ui-template-with-angular-8-material-design/
+https://material.angular.io/?theme=indigo-pink
+
+>20 Best Free & Premium Bootstrap Social Network Templates 2020
+https://colorlib.com/wp/bootstrap-social-network-templates/
+
+02 - Angular Bootstrap with Material Design
+02.1 How to install MDB via npm\
+npm i angular-bootstrap-md --save
+#No changes to git
+#See 'npm i' command
+
+>if you want to change styles in exisiting project you can use 
+ng config schematics.@schematics/angular:component.styleext scss
+
+>install external libs
+npm install -–save chart.js@2.5.0 font-awesome hammerjs
+
+>Failed to compile.
+./node_modules/angular-bootstrap-md/fesm2015/angular-bootstrap-md.js
+Module not found: Error: Can't resolve '@angular/cdk/a11y' in '/opt/ui/node_modules/angular-bootstrap-md/fesm2015'
+
+>Solution StackOverflow
+https://stackoverflow.com/questions/55609555/error-module-not-found-error-cant-resolve-angular-cdk-scrolling
+npm install @angular/cdk --save
